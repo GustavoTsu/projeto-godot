@@ -1,0 +1,144 @@
+/* 1 rem é 16px acho */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: #154d85;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header img {
+    height: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+
+header p {
+    margin: 0.5rem 0 0 10px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+
+}
+
+header a {
+    text-decoration: none;
+    font-weight: bold;
+    opacity: 0.9;
+    color: #519dd8;
+
+}
+
+.projetos {
+    padding: 2rem 0;
+    border-style: bold;
+}
+
+.projetos h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+
+.grid {
+    display: grid;
+    gap: 1.2rem;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.topo {
+    background: #478cbf;
+    color: white;
+    padding: 1rem;
+    position: relative;
+}
+
+.topo h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.cadeado {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.conteudo {
+    padding: 1.2rem;
+}
+
+.conteudo p {
+    margin: 0 0 1rem;
+    color: #555;
+}
+
+.botao {
+    display: block;
+    background: #e74c3c;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    width: 50vw;
+    margin: 0 auto;
+}
+
+.botao:hover {
+    background: #c0392b;
+}
+
+.botao:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+}
+
+.bloqueado {
+    opacity: 0.8;
+}
+
+footer {
+    background: #478cbf;
+    color: white;
+    text-align: center;
+    padding: 1.2rem 0;
+    margin-top: 2rem;
+}
